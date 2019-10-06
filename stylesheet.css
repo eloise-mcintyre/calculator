@@ -1,0 +1,44 @@
+
+.whole-page {
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+}
+
+
+.calc-body {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+button {
+    border-radius: 5px;
+    height: 50px;
+    width: 60px;
+    font-family: 'courier new', 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+
+#top-display {
+    border-radius: 5px;
+    font-size: 35px;
+    background-color: #606c56;
+    height: 50px;
+    text-align: right;
+}
+
+.fith-row {
+    float: right;
+    padding-right: 30px;
+}
